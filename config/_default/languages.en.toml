@@ -1,0 +1,27 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "ZawZaw.blog"
+copyright = "&copy; 2025 ZawZaw.blog"
+
+[params]
+  dateFormat = "2 January 2006"
+
+  mainSections = ["blog"]
+  description = "Publishes on Container technology & networking, Kubernetes, and personal experiences."
+
+[params.author]
+  name = "Zaw Zaw"
+  image = "img/author-profile.jpeg"
+  headline = ""
+  bio = "An SRE/platform engineer—loves writing and photography."
+  links = [
+    { email = "mailto:zawzthein@outlook.com" },
+    { github = "https://github.com/thezawzaw" },
+    { linkedin = "https://www.linkedin.com/in/thezawzaw" },
+    { facebook = "https://www.facebook.com/thezawzaww" },
+    { instagram = "https://www.instagram.com/thezawzaw" }
+  ]
+
