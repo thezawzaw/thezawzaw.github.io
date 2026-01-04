@@ -1,5 +1,5 @@
 ---
-title: "Photography"
+title: "PHOTOGRAPHY"
 description: "Photos about Macro, City, Nature, and Landscape Photography"
 showDate: false
 showAuthor: false
@@ -16,19 +16,26 @@ I am also interested in photography and I love to take photographs as an Amateur
 
 You can see the photos on the following **Pixieset Gallery** website, **Google Photos** Album, and **Instagram**.
 
-<div style="display: flex; gap: 21px;">
-
-<a href="https://thezawzaw.pixieset.com/">
-<img src="https://ss-assets.pixieset.com/5y7K4RKTKwqeDZ9h4OIDc3/CG-iconwb-090825.webp" alt="Pixieset Galleries" style="width: 60px; height: 60px;">
+<div style="display: inline-flex; gap: 18px;">
+<a href="https://thezawzaw.pixieset.com/" style="display: inline-flex; align-items: center; text-decoration: none;">
+<img 
+   src="https://ss-assets.pixieset.com/5y7K4RKTKwqeDZ9h4OIDc3/CG-iconwb-090825.webp" 
+   alt="Pixieset" 
+   style="width: 35px; height: 35px; margin-right: 5px;">Pixieset
 </a>
 
-<a href="https://photos.app.goo.gl/SJ9NYCk8so8oJRQz7">
-<img src="https://www.svgrepo.com/show/353826/google-photos.svg" alt="Google Photos Album" style="width: 60px; height: 60px;">
+<a href="https://photos.app.goo.gl/SJ9NYCk8so8oJRQz7" style="display: inline-flex; align-items: center; text-decoration: none;">
+<img 
+   src="https://www.svgrepo.com/show/353826/google-photos.svg" 
+   alt="Google Photos" 
+   style="width: 35px; height: 35px; margin-right: 5px;">Google Photos
 </a>
 
-<a href="https://www.instagram.com/thezawzaw">
-<img src="https://www.svgrepo.com/show/157806/instagram.svg" alt="Instagram" style="width: 60px; height: 60px;">
+<a href="https://www.instagram.com/thezawzaw" style="display: inline-flex; align-items: center; text-decoration: none;">
+<img 
+   src="https://www.svgrepo.com/show/157806/instagram.svg" 
+   alt="Instagram" 
+   style="width: 35px; height: 35px; margin-right: 5px;">Instagram
 </a>
-
 </div>
 

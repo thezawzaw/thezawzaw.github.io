@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "BLOG"
 description: "Latest Blog Posts and Articles"
 
 cascade:

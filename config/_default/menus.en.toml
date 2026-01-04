@@ -11,33 +11,29 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Home"
+  name = "HOME"
   pageRef = "/"
   weight = 10
 
 [[main]]
-  name = "Blog"
+  name = "BLOG"
   pageRef = "blog"
   weight = 20
 
 [[main]]
-  name = "Topics"
+  name = "TOPICS"
   pageRef = "tags"
   weight = 21
 
 [[main]]
-  name = "Photography"
+  name = "PHOTOGRAPHY"
   pageRef = "photography"
   weight = 22
 
 [[main]]
-  name = "GitHub"
-  url = "https://github.com/thezawzaw"
-  weight = 40
-  [main.params]
-    icon = "github"
-    showName = false
-    target = "_blank"
+  name = "ABOUT"
+  pageRef = "about"
+  weight = 23
 
 [[main]]
   identifier = "search"
