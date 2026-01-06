@@ -2,7 +2,6 @@
 title: "ABOUT"
 showDate: false
 showAuthor: false
-showTableOfContents: false
 showWordCount: false
 showReadingTime: false
 showEdit: false
