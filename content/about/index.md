@@ -24,7 +24,7 @@ Currently, I’m working on Site Reliability Engineering (SRE), Linux, CI/CD too
 
 ---
 
-## SKILLS
+## PROFESSIONAL SKILLS
 
  - **Programming & Scripting:** C/C++, Java, Bash Shell
  - **Leadership:** Team Management, Mentorship, SRE Practices

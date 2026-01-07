@@ -16,26 +16,9 @@ I am also interested in photography and I love to take photographs as an Amateur
 
 You can see the photos on the following **Pixieset Gallery** website, **Google Photos** Album, and **Instagram**.
 
-<div style="display: inline-flex; gap: 18px;">
-<a href="https://thezawzaw.pixieset.com/" style="display: inline-flex; align-items: center; text-decoration: none;">
-<img 
-   src="https://ss-assets.pixieset.com/5y7K4RKTKwqeDZ9h4OIDc3/CG-iconwb-090825.webp" 
-   alt="Pixieset" 
-   style="width: 35px; height: 35px; margin-right: 5px;">Pixieset
-</a>
+ - Pixieset: [https://thezawzaw.pixieset.com](https://thezawzaw.pixieset.com)
 
-<a href="https://photos.app.goo.gl/SJ9NYCk8so8oJRQz7" style="display: inline-flex; align-items: center; text-decoration: none;">
-<img 
-   src="https://www.svgrepo.com/show/353826/google-photos.svg" 
-   alt="Google Photos" 
-   style="width: 35px; height: 35px; margin-right: 5px;">Google Photos
-</a>
+ - Google Photos: [https://photos.app.goo.gl/SJ9NYCk8so8oJRQz7](https://photos.app.goo.gl/SJ9NYCk8so8oJRQz7)
 
-<a href="https://www.instagram.com/thezawzaw" style="display: inline-flex; align-items: center; text-decoration: none;">
-<img 
-   src="https://www.svgrepo.com/show/157806/instagram.svg" 
-   alt="Instagram" 
-   style="width: 35px; height: 35px; margin-right: 5px;">Instagram
-</a>
-</div>
+ - Instagram: [https://www.instagram.com/thezawzaw](https://www.instagram.com/thezawzaw)
 

@@ -8,6 +8,6 @@ cascade:
 ---
 
 {{< lead >}}
-Latest Blog Posts and Articles
+Latest Blog Posts and Articles on Linux, Container technologies, Kubernetes, and Personal experiences.
 {{< /lead >}}
 
