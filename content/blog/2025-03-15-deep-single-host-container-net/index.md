@@ -1,6 +1,5 @@
 ---
 title: "Containers from Scratch: Deep Dive into Single-Host Container Networking"
-summary: "How Containers (Alpine Linux and Tiny Linux Cotaniners) running on a Single Host communicate at the underlying layer"
 date: 2025-03-15
 tags: [containerization, containers, network]
 url: /blog/deep-single-host-container-networking

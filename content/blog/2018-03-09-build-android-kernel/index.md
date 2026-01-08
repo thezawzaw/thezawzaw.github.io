@@ -1,6 +1,5 @@
 ---
 title: "Building Kernel For Android Devices"
-summary: "How to build kernel for your Android devices from the source code"
 date: 2018-03-09
 tags: [android]
 url: "/blog/build-android-kernel"

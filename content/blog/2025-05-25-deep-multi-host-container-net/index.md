@@ -1,6 +1,5 @@
 ---
 title: "Containers from Scratch: Deep Dive into Multi-Host Container Networking (Part II)"
-summary: "How Containers running on different Hosts communicate at the underlying layer"
 date: 2025-05-25
 tags: [containerization, containers, networking]
 url: /blog/deep-multi-host-container-networking
