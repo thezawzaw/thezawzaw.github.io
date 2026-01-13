@@ -1,7 +1,7 @@
 ---
 title: "Containers from Scratch: Deep Dive into Multi-Host Container Networking (Part II)"
 date: 2025-05-25
-tags: [containerization, containers, networking]
+tags: [containers, networking]
 url: /blog/deep-multi-host-container-networking
 ---
 
@@ -456,4 +456,8 @@ Reference Links:
  - [https://blog.mbrt.dev/posts/container-network](https://blog.mbrt.dev/posts/container-network)
  - [https://labs.iximiuz.com/tutorials/container-networking-from-scratch](https://labs.iximiuz.com/tutorials/container-networking-from-scratch)
  - [https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking](https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking)
+
+---
+
+{{< newsletter >}}
 

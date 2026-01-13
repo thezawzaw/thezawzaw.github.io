@@ -36,6 +36,22 @@
   weight = 23
 
 [[main]]
+  name = "Subscribe"
+  pageRef = "subscribe"
+  weight = 24
+  [main.params]
+    icon = "email"
+
+[[main]]
+  name = "GitHub"
+  url = "https://github.com/thezawzaw"
+  weight = 40
+  [main.params]
+    icon = "github"
+    showName = false
+    target = "_blank"
+
+[[main]]
   identifier = "search"
   weight = 99
   [main.params]
