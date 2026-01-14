@@ -7,12 +7,16 @@ cascade:
   showSummary: true
 ---
 {{< lead >}}
-Latest Blog Posts and Articles on Linux, Container Technologies & Networking, Kubernetes, and Personal Experiences.
+Latest blog posts and articles on Linux, Container technologies & networking, Kubernetes, and personal experiences.
 {{< /lead >}}
 
-{{< button href="/subscribe" target="_self" >}}
+<div style="text-align: center;">
+
+{{< button href="/newsletter" target="_self" >}}
 Subscribe to the Newsletter
 {{< /button >}}
+
+</div>
 
 ---
 

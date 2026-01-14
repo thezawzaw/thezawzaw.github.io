@@ -5,6 +5,8 @@ tags: [containers, networking]
 url: /blog/deep-multi-host-container-networking
 ---
 
+{{< newsletter-modal >}}
+
 This article is Part II of the previously published article, [Containers from Scratch: Deep Dive into Single-Host Container Networking](https://www.zawzaw.blog/posts/deep-dive-single-host-container-net). In Part I, you've learned how two containers communicate on the same single host, also known as **Single-host** container networking.
 
 In this article, Part II, you'll learn how Containers *(Container A and Container B)* running on two different hosts (VMs) communicate and interact with each other using VXLAN networking, also known as **Multi-host** container networking, and I'll also demonstrate how Multi-host container networking works at the underlying layer with built-in Linux command-line tools.

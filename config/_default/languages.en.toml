@@ -19,8 +19,10 @@ copyright = "&copy; 2026 ZawZaw.blog"
   bio = "An SRE/platform engineer—loves writing and photography."
   links = [
     { email = "mailto:zawzthein@outlook.com" },
+    { rss = "/newsletter" },
     { github = "https://github.com/thezawzaw" },
     { linkedin = "https://www.linkedin.com/in/thezawzaw" },
+    { medium = "https://thezawzaw.medium.com" },
     { facebook = "https://www.facebook.com/thezawzaww" },
     { instagram = "https://www.instagram.com/thezawzaw" }
   ]

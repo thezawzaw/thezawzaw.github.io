@@ -9,39 +9,38 @@
 # By default the menu is ordered alphabetically. This can be
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
-
 [[main]]
-  name = "Home"
+  name = "HOME"
   pageRef = "/"
   weight = 1
 
 [[main]]
-  name = "Blog"
+  name = "BLOG"
   pageRef = "blog"
   weight = 10
 
 [[main]]
-  name = "Topics"
-  pageRef = "tags"
+  name = "TOPICS"
+  pageref = "tags"
   weight = 20
 
 [[main]]
-  name = "Photography"
-  pageRef = "photography"
+  name = "PHOTOGRAPHY"
+  pageref = "photography"
   weight = 30
 
 [[main]]
-  name = "About"
-  pageRef = "about"
+  name = "ABOUT"
+  pageref = "about"
   weight = 40
 
 [[main]]
   name = "Subscribe"
-  pageRef = "subscribe"
+  pageref = "newsletter"
   weight = 50
   [main.params]
     icon = "email"
-    showName = true
+    showname = true
 
 [[main]]
   name = "GitHub"
@@ -67,8 +66,30 @@
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
+[[footer]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 10
 
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+[[footer]]
+  name = "Topics"
+  pageref = "tags"
+  weight = 20
+
+[[footer]]
+  name = "Photography"
+  pageref = "photography"
+  weight = 30
+
+[[footer]]
+  name = "About"
+  pageref = "about"
+  weight = 40
+
+[[footer]]
+  name = "Subscribe"
+  pageref = "newsletter"
+  weight = 50
+  [footer.params]
+    icon = "email"
+
