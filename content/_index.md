@@ -2,8 +2,6 @@
 title: "Welcome to ZawZaw.blog"
 ---
 
-{{< newsletter-modal >}}
-
 {{< lead >}}
 Welcome to the ZawZaw.blog. Writes and publishes in-depth & practical guides on Container technologies, Networking, Kubernetes, and personal experiences.
 

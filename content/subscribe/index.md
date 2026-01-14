@@ -1,13 +1,19 @@
 ---
 title: "Subscribe to the Newsletter"
 showDate: false
-showAuthor: false
+showAuthor: true
 showWordCount: false
 showReadingTime: false
 showEdit: false
 ---
 
-By subscribing to the **Monthly ContainerStack Newsletter**, you'll learn the following:
+{{< lead >}}
+Subscribe to the ContainerStack Newsletter, which publishes articles and guides both on the web and by email monthly.
+{{< /lead >}}
+
+---
+
+By subscribing to the Monthly ContainerStack Newsletter, you'll learn the following:
 
  - Basic and Advanced Concepts of Containerization
 
@@ -20,4 +26,14 @@ By subscribing to the **Monthly ContainerStack Newsletter**, you'll learn the fo
 <br>
 
 {{< newsletter >}}
+
+---
+
+<div style="text-align: center;">
+
+{{< button href="/blog" target="_self" >}}
+Read Posts and Articles on the Web
+{{< /button >}}
+
+</div>
 
