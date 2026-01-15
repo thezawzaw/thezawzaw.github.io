@@ -10,7 +10,7 @@ copyright = "&copy; 2026 ZawZaw.blog"
   dateFormat = "2 January 2006"
 
   mainSections = ["blog"]
-  description = "Wrties about Container technologies & networking, Kubernetes, and personal experiences."
+  description = "Write about Container technologies & networking, Kubernetes, and personal experiences."
 
 [params.author]
   name = "Zaw Zaw"
@@ -22,7 +22,6 @@ copyright = "&copy; 2026 ZawZaw.blog"
     { rss = "/newsletter" },
     { github = "https://github.com/thezawzaw" },
     { linkedin = "https://www.linkedin.com/in/thezawzaw" },
-    { medium = "https://thezawzaw.medium.com" },
     { facebook = "https://www.facebook.com/thezawzaww" },
     { instagram = "https://www.instagram.com/thezawzaw" }
   ]

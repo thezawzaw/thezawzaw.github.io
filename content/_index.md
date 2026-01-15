@@ -3,9 +3,9 @@ title: "Welcome to ZawZaw.blog"
 ---
 
 {{< lead >}}
-Welcome to ZawZaw.blog! Publishes in-depth & practical guides on Container technologies, networking, Kubernetes, and personal experiences.
+Welcome to ZawZaw.blog. Publishes in-depth & practical guides on Linux, Container technologies & networking, Kubernetes, and personal experiences.
 
-Subscribe to the ContainerStack Newsletter to get the latest articles, guides, and updates directly to your inbox.
+Subscribe to the Newsletter to get the latest articles, guides, and updates directly to your inbox.
 {{< /lead >}}
 
 {{< button href="/newsletter" target="_self" >}}
