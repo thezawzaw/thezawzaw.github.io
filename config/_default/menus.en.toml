@@ -30,7 +30,7 @@
   weight = 40
 
 [[main]]
-  name = "Newsletter"
+  name = "NEWSLETTER"
   pageref = "newsletter"
   weight = 50
   [main.params]

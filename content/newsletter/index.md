@@ -26,7 +26,7 @@ By subscribing to the **Monthly ContainerStack Newsletter**, you'll learn the fo
 
 <div style="text-align: center;">
 {{< button href="/blog" target="_self" >}}
-    {{< icon "globe" >}} Read the Latest Posts on the Blog
+    {{< icon "globe" >}} &nbsp; Read the Latest Posts on the Blog
 {{< /button >}}
 </div>
 
@@ -34,7 +34,7 @@ By subscribing to the **Monthly ContainerStack Newsletter**, you'll learn the fo
 
 <div style="text-align: center;">
 {{< button href="https://www.linkedin.com/newsletters/the-container-stack-7401648894910349313" target="_blank" >}}
-    {{< icon "linkedin" >}} Read the Latest Posts on Linkedin
+    {{< icon "linkedin" >}} &nbsp; Read the Latest Posts on Linkedin
 {{< /button >}}
 </div>
 
