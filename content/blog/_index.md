@@ -8,20 +8,14 @@ cascade:
 ---
 
 {{< lead >}}
-Subscribe to the Newsletter to get the latest articles, guides, and updates directly to your inbox.
+LATEST POSTS & ARTICLES
 {{< /lead >}}
-
-<div style="text-align: center;">
-{{< button href="/newsletter" target="_self" >}}
-Subscribe to the Newsletter
-{{< /button >}}
-</div>
 
 ---
 
 <div style="text-align: center;">
-{{< lead >}}
-**LATEST POSTS & ARTICLES**
-{{< /lead >}}
+{{< button href="https://newsletter.zawzaw.blog/" target="_self" >}}
+Subscribe to the Newsletter
+{{< /button >}}
 </div>
 

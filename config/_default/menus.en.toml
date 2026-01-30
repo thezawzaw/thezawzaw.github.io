@@ -10,32 +10,29 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 [[main]]
-  name = "BLOG"
+  name = "Blog"
   pageRef = "blog"
   weight = 10
 
 [[main]]
-  name = "TOPICS"
+  name = "Topics"
   pageref = "tags"
   weight = 20
 
 [[main]]
-  name = "PHOTOGRAPHY"
+  name = "Photography"
   pageref = "photography"
   weight = 30
 
 [[main]]
-  name = "ABOUT"
-  pageref = "about"
+  name = "Newsletter"
+  url = "https://newsletter.zawzaw.blog/"
   weight = 40
 
 [[main]]
-  name = "NEWSLETTER"
-  pageref = "newsletter"
+  name = "About"
+  pageref = "about"
   weight = 50
-  [main.params]
-    icon = "email"
-    showname = true
 
 [[main]]
   name = "Linkedin"
@@ -70,33 +67,8 @@
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
-[[footer]]
-  name = "Blog"
-  pageRef = "blog"
-  weight = 10
-
-[[footer]]
-  name = "Topics"
-  pageref = "tags"
-  weight = 20
-
-[[footer]]
-  name = "Photography"
-  pageref = "photography"
-  weight = 30
-
-[[footer]]
-  name = "About"
-  pageref = "about"
-  weight = 40
-
-[[footer]]
-  name = "Newsletter"
-  pageref = "newsletter"
-  weight = 50
-
-[[footer]]
-  name = "Linkedin"
-  url = "https://www.linkedin.com/newsletters/the-container-stack-7401648894910349313"
-  weight = 60
+# [[footer]]
+#   name = "Blog"
+#   pageRef = "blog"
+#   weight = 10
 

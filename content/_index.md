@@ -3,12 +3,13 @@ title: "Welcome to ZawZaw.blog"
 ---
 
 {{< lead >}}
-Welcome to ZawZaw.blog. Publishes in-depth & practical guides on Linux, Container technologies & networking, Kubernetes, and personal experiences.
+Welcome to ZawZaw.blog.
+The blog publishes mostly practical guides, from fundamentals to deep dives into SRE, Linux Internals, Container technology & networking, and Kubernetes, as well as other general topics such as life journey and experience.
 
-Subscribe to the Newsletter to get the latest articles, guides, and updates directly to your inbox.
+Subscribe to the PlatformStack Newsletter to get the latest articles and guides directly to your inbox.
 {{< /lead >}}
 
-{{< button href="/newsletter" target="_self" >}}
+{{< button href="https://newsletter.zawzaw.blog/" target="_self" >}}
 Subscribe to the Newsletter
 {{< /button >}}
 

@@ -10,7 +10,7 @@ copyright = "&copy; 2026 ZawZaw.blog"
   dateFormat = "2 January 2006"
 
   mainSections = ["blog"]
-  description = "Write about Container technologies & networking, Kubernetes, and personal experiences."
+  description = "From Fundamentals to Deep Dives: SRE, Linux Internals, Container technology & networking, and Kubernetes."
 
 [params.author]
   name = "Zaw Zaw"
@@ -19,10 +19,9 @@ copyright = "&copy; 2026 ZawZaw.blog"
   bio = "An SRE/platform engineer—loves writing and photography."
   links = [
     { email = "mailto:zawzthein@outlook.com" },
-    { rss = "/newsletter" },
+    { rss = "https://newsletter.zawzaw.blog" },
     { github = "https://github.com/thezawzaw" },
     { linkedin = "https://www.linkedin.com/in/thezawzaw" },
-    { facebook = "https://www.facebook.com/thezawzaww" },
     { instagram = "https://www.instagram.com/thezawzaw" }
   ]
 

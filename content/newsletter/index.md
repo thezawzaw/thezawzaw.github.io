@@ -1,5 +1,5 @@
 ---
-title: "Subscribe to the Newsletter"
+title: "NEWSLETTER"
 showDate: false
 showAuthor: false
 showWordCount: false
@@ -8,19 +8,10 @@ showEdit: false
 ---
 
 {{< lead >}}
-Subscribe to the ContainerStack Newsletter, which publishes articles and guides both on the web and by email monthly.
+The monthly PlatformStack newsletter publishes articles and guides both on the blog and by email. Every month, the latest article is delivered to your indbox.
 {{< /lead >}}
 
----
-
 {{< newsletter >}}
-
-By subscribing to the **Monthly ContainerStack Newsletter**, you'll learn the following:
-
-- *The fundamentals of how Containers work.*
-- *Deep dive into Containers and how Container networking works.*
-- *Guides on Container technologies and tools (Docker, Buildah, Podman).*
-- *Guides on Kubernetes-related tools and how Kubernetes networking works.*
 
 <br>
 
