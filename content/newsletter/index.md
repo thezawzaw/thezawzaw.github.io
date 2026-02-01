@@ -1,5 +1,6 @@
 ---
 title: "NEWSLETTER"
+draft: true
 showDate: false
 showAuthor: false
 showWordCount: false

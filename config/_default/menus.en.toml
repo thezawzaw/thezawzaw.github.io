@@ -15,6 +15,11 @@
   weight = 10
 
 [[main]]
+  name = "Guides"
+  pageRef = "guides"
+  weight = 15
+
+[[main]]
   name = "Topics"
   pageref = "tags"
   weight = 20
