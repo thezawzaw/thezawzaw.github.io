@@ -39,7 +39,7 @@ NOTE: If you have installed any Linux distribution, these tools are built-in too
 
 ## Introduction to Containers
 
-![docker-containers](/assets/images/featured-images/img_docker_containers.png)
+![docker-containers](images/img-docker-containers.png)
 _Docker Containers vs Virtual Machines by Docker_
 
 Nowadays, containers are a popular topic, and most companies are using containers to build, ship and run application workloads in both development and production environments.
@@ -103,7 +103,7 @@ In this article, we will use the Alpine Linux Mini root filesystem. Go to the Al
 
 Alpine Linux has supported the Alpine Mini root filesystem that is for containers and minimal chroots. That supports multiple system architectures, such as **aarch64, armv7. riscv64, x86, x86_64** and so on.
 
-![img-alpine-mini-rootfs](/assets/images/screenshots/img_screenshot_alpine_mini_rootfs.png)
+![img-alpine-mini-rootfs](images/img-screenshot-alpine-mini-rootfs.png)
 
 (Or)
 
@@ -500,7 +500,7 @@ Now, you will see the Alpine Linux container with an isolated environment (**PID
 
 ## Single-Host Container Networking from Scratch
 
-![container-networking](/assets/images/featured-images/img_container_networking_diagram.png)
+![container-networking](images/img-container-networking-diagram.png)
 
 TLDR;
 
@@ -773,7 +773,7 @@ We now have two containers, **Alpine Linux** and **Tiny Linux**, running in full
 
 In this section, we will continue to setup a *Bridge network* to forward the network packets to the *Two Containers*.
 
-![bridge-network](/assets/images/featured-images/img_bridge_network.png)
+![bridge-network](images/img-bridge-network.png)
 
 On **the Host Linux machine**,
 setup a Bridge network and attach it to the `veth0` and `veth2` network interfaces.

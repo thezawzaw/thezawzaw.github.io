@@ -61,8 +61,7 @@ In this article, I will focus on **VXLAN Networking** to demonstrate Multi-host 
 
 ## What's VXLAN and How it Works
 
-![vxlan-diagram](/assets/images/featured-images/img_vxlan_diagram.png)
-_Photo Credit to: RedHat Developers (developers.redhat.com)_
+![vxlan-diagram](images/img-vxlan-diagram.png "Photo Credit to: RedHat Developers (developers.redhat.com)")
 
 **VXLAN (Virtual eXtensible Local-Area Network)** is a tunneling protocol or network virtualization technology that provides for creating a virtual Layer 2 network (overlay network) over the Layer 3 network (underlay network).
 
@@ -141,7 +140,7 @@ Our project setup looks like this. Container A and Container B are running on Tw
 
 ### How it Works
 
-![Multi-Host Container Networking Diagram](/assets/images/featured-images/img_multi_host_container_networking.png)
+![Multi-Host Container Networking Diagram](images/img-multi-host-container-networking.png)
 _Diagram on How Multi-Host Container Networking Works_
 
  - *Container (A)* and *Container (B)* are running on two different hosts (Host 1 and Host 2).
@@ -156,7 +155,7 @@ _Diagram on How Multi-Host Container Networking Works_
 
 ---
 
-![Host 1](/assets/images/featured-images/img_multi_host_container_net_host1.png)
+![Host 1](images/img-multi-host-container-net-host1.png)
 
 ### On Host (1) Debian Linux VM
 
@@ -296,7 +295,7 @@ br0             8000.8aea1d11531b       no              veth0
 
 ---
 
-![Host 2](/assets/images/featured-images/img_multi_host_container-net_host2.png)
+![Host 2](images/img-multi-host-container-net-host2.png)
 
 ### On Host (2) Amazon Linux VM
 
