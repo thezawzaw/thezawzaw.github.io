@@ -2,12 +2,6 @@ html {
 	font-family: "Google Sans Flex", sans-serif;
 	font-size: 12.5pt;
 	font-optical-sizing: auto;
-	font-weight: <weight>;
-        font-style: normal;
-        font-variation-settings:
-          "slnt" 0,
-          "wdth" 100,
-          "GRAD" 0,
-          "ROND" 0;
+	font-weight: 400;
+    font-style: normal;
 }
-
