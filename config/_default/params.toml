@@ -18,6 +18,19 @@ enableQuicklink = true
 # robots = ""
 fingerprintAlgorithm = "sha256"
 
+[author]
+  name = "Zaw Zaw"
+  image = "img/author-profile.jpeg"
+  headline = ""
+  bio = "An SRE/platform engineer—loves writing and photography."
+  links = [
+      { email = "mailto:zawzthein@outlook.com" },
+      { rss = "https://newsletter.zawzaw.blog" },
+      { github = "https://github.com/thezawzaw" },
+      { linkedin = "https://www.linkedin.com/in/thezawzaw" },
+      { instagram = "https://www.instagram.com/thezawzaw" }
+  ]
+
 [header]
   layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
   # logo = "img/logo.jpg"
