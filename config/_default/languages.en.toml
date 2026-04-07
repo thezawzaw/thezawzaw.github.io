@@ -6,24 +6,22 @@ weight = 1
 title = "ZawZaw.blog"
 copyright = "&copy; 2026 ZawZaw.blog"
 
-[author]
-  name = "Zaw Zaw"
-
 [params]
   dateFormat = "2 January 2006"
 
   mainSections = ["blog"]
   description = "From Fundamentals to Deep Dives: SRE, Linux Internals, Container technology & networking, and Kubernetes."
 
-  [params.author]
-    name = "Zaw Zaw"
-    image = "img/author-profile.jpeg"
-    headline = ""
-    bio = "An SRE/platform engineer—loves writing and photography."
-    links = [
-      { email = "mailto:zawzthein@outlook.com" },
-      { rss = "https://newsletter.zawzaw.blog" },
-      { github = "https://github.com/thezawzaw" },
-      { linkedin = "https://www.linkedin.com/in/thezawzaw" },
-      { instagram = "https://www.instagram.com/thezawzaw" }
-    ]
+[params.author]
+  name = "Zaw Zaw"
+  image = "img/author-profile.jpeg"
+  headline = ""
+  bio = "An SRE/platform engineer—loves writing and photography."
+  links = [
+    { email = "mailto:zawzthein@outlook.com" },
+    { rss = "https://newsletter.zawzaw.blog" },
+    { github = "https://github.com/thezawzaw" },
+    { linkedin = "https://www.linkedin.com/in/thezawzaw" },
+    { instagram = "https://www.instagram.com/thezawzaw" }
+  ]
+
