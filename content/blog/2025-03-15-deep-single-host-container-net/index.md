@@ -23,26 +23,22 @@ This article focused on a deep dive into Container networking; how to run Contai
 
 ## Prerequisities
 
-Before we begin, make sure you are familiar with the following tools:
-
  - Linux Host (e.g., Ubuntu, Fedora, etc..)
 
- - [chroot](https://man7.org/linux/man-pages/man1/chroot.1.html) ─ *a user-space tool to interact with the [chroot(2)](https://man7.org/linux/man-pages/man2/chroot.2.html) system call, to change the root filesystem of the calling process.*
+ - [chroot](https://man7.org/linux/man-pages/man1/chroot.1.html) ─ *a user-space tool to interact with the chroot system call, to change the root filesystem of the calling process.*
 
- - [unshare](https://man7.org/linux/man-pages/man1/unshare.1.html) ─ *a user-space tool to interact with [Linux kernel namespaces](https://man7.org/linux/man-pages/man7/namespaces.7.html) by invoking the [unshare(2)](https://man7.org/linux/man-pages/man2/unshare.2.html) system call, to create a new process in a new namespace that isolates the process ID, mount, IPC, network, and so on.*
+ - [unshare](https://man7.org/linux/man-pages/man1/unshare.1.html) ─ *a user-space tool to interact with Linux kernel namespaces by invoking the unshare system call, to create a new process in a new namespace that isolates the process ID, mount, IPC, network, and so on.*
 
  - [ip](https://man7.org/linux/man-pages/man8/ip.8.html) ─ *a command-line tool to configure network interfaces, routing, and tunnels.*
 
  - [Linux namespaces](https://man7.org/linux/man-pages/man7/namespaces.7.html) ─ *a feature of the Linux kernel that isolates and virtualizes system resources for a collection of processes.*
 
-NOTE: If you have installed any Linux distribution, these tools are built-in tools and features.
+**Note:** If you have installed any Linux distribution, these tools are built-in tools and features.
 
 ## Introduction to Containers
 
 ![docker-containers](images/img-docker-containers.png)
 _Docker Containers vs Virtual Machines by Docker_
-
-Nowadays, containers are a popular topic, and most companies are using containers to build, ship and run application workloads in both development and production environments.
 
 Basically, containers are a way to package and deploy applications in an isolated and portal environment and they provide a standardized way to bundle an application's code, dependencies and configuration into a single unit that can be easily deployed on the server.
 
@@ -58,7 +54,7 @@ Benefits of using Containers are:
 
  - **Efficiency**: Containers are lightweight and share the Host OS's kernel and hardware resources that make more efficient to run applications.
 
-## Setup Project and Root Filesystem
+## Set Up Project and Root Filesystem
 
 Firstly, we will build and run Containers from scratch using the `chroot` and `unshare` command-line tools to understand how Containers work.
 
@@ -573,7 +569,7 @@ Reference [https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-i
 
 ### Container A (Alpine Linux): Setting up VETH Network
 
-In this section, we will setup the VETH network on the Alpine Linux container.
+In this section, we will set up the VETH network on the Alpine Linux container.
 
 Same as previous, we will create a process, *the Alpine Linux container*, in isolated PID (Process ID), Mount, and Network namespaces using the command-line tools, `unshare`, `chroot`.
 
@@ -606,7 +602,7 @@ Then, set the `ALPINE_CONTAINER_PID` environment variable with the `export` comm
 $ export ALPINE_CONTAINER_PID=25473
 ```
 
-On the **Host Linux machine**, setup a veth network pair, `veth0`, `veth1` with the `ip` command-line tool.
+On the **Host Linux machine**, set up a veth network pair, `veth0`, `veth1` with the `ip` command-line tool.
 
 ```sh
 [zawzaw@fedora-linux:~]$ sudo ip link add veth0 type veth peer name veth1
@@ -672,7 +668,7 @@ For Container (B), we will use the *Tiny Linux* root filesystem image that I've 
 
 Download: [Tiny Linux Root Filesystem](https://drive.google.com/file/d/1suciSI1GHOuUs4j6CXU6VYZmt0ESEVC1/view?usp=sharing)
 
-In this section, we will setup the VETH network on the Tiny Linux container. Same as previous, we will create a process, **Container (B)** also known as the **Tiny Linux container**, in isolated PID (Process ID), Mount, and Network namespaces using the command-line tools, `unshare`, `chroot`.
+In this section, we will set up the VETH network on the Tiny Linux container. Same as previous, we will create a process, **Container (B)** also known as the **Tiny Linux container**, in isolated PID (Process ID), Mount, and Network namespaces using the command-line tools, `unshare`, `chroot`.
 
 ```sh
 $ cd ${HOME}/cd containers/tiny-linux
@@ -704,7 +700,7 @@ Then, set the `TINY_CONTAINER_PID` environment variable with the `export` comman
 $ export TINY_CONTAINER_PID=29999
 ```
 
-On the **Host Linux machine**, setup a veth network pair, `veth2`, `veth3` with the `ip` command-line tool.
+On the **Host Linux machine**, set up a veth network pair, `veth2`, `veth3` with the `ip` command-line tool.
 
 ```sh
 [zawzaw@fedora-linux:~]$ sudo ip link add veth2 type veth peer name veth3
@@ -755,7 +751,7 @@ But now, you will notice that Containers can't communicate with each other. To c
  - *(A) Alpine Linux Container's IP address:* `172.19.35.3`
  - (B) *Tiny Linux Container's IP address:* `172.19.35.2`
 
-For example, ping `172.19.35.3` from the **Tiny Linux** container. It will not work and is not reachable network from one to another one because we need to setup a Bridge network.
+For example, ping `172.19.35.3` from the **Tiny Linux** container. It will not work and is not reachable network from one to another one because we need to set up a Bridge network.
 
 ```sh
 / # ping -c 5 172.19.35.3
@@ -765,18 +761,18 @@ PING 172.19.35.3 (172.19.35.3): 56 data bytes
 5 packets transmitted, 0 packets received, 100% packet loss
 ```
 
-In **the next section**, you'll learn how to setup a Bridge network to forward the network packets between two containers.
+In **the next section**, you'll learn how to set up a Bridge network to forward the network packets between two containers.
 
 ### Setting Up Bridge Network
 
 We now have two containers, **Alpine Linux** and **Tiny Linux**, running in fully isolated *PID*, *Mount* and *Network* Linux namesapces. They also have the Virtual Enthernet (VETH) pair in the same *Network* Linux namespace.
 
-In this section, we will continue to setup a *Bridge network* to forward the network packets to the *Two Containers*.
+In this section, we will continue to set up a *Bridge network* to forward the network packets to the *Two Containers*.
 
 ![bridge-network](images/img-bridge-network.png)
 
 On **the Host Linux machine**,
-setup a Bridge network and attach it to the `veth0` and `veth2` network interfaces.
+set up a Bridge network and attach it to the `veth0` and `veth2` network interfaces.
 
 ```sh
 [zawzaw@fedora-linux:~]$ sudo ip link set veth0 master br0
@@ -841,4 +837,3 @@ Reference Links:
 ---
 
 {{< newsletter >}}
-
